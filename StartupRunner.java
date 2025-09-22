@@ -29,7 +29,7 @@ public class StartupRunner implements CommandLineRunner {
                 .block();
 
         if (response == null) {
-            System.out.println("❌ Failed to get webhook response");
+            System.out.println(" Failed to get webhook response");
             return;
         }
 
